@@ -23,6 +23,10 @@ pip install Z80emulator
 
 <https://flandollscarlet495.github.io/Z80emulator/index.html>
 
+## ソースコード
+
+<https://github.com/FlandollScarlet495/Z80emulator>
+
 ## 使用例
 
 ```python
