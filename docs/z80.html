@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z80 命令セット - Z80emulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Z80 命令セット</h1>
+    <nav>
+        <a href="index.html">トップ</a> |
+        <a href="basic.html">BASIC 文法</a> |
+        <a href="asm.html">アセンブラ文法</a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>基本命令</h2>
+        <ul>
+            <li>LD r,n / LD r,r / LD (addr),A など</li>
+            <li>ADD / SUB / INC / DEC</li>
+            <li>JP / JR / CALL / RET / HALT</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>CB プレフィックス命令例</h2>
+        <ul>
+            <li>RLC r / RRC r / RL r / RR r</li>
+            <li>BIT n,r / RES n,r / SET n,r</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>ED プレフィックス命令例</h2>
+        <ul>
+            <li>IN r,(C) / OUT (C),r</li>
+            <li>LD dd,(nn) / LD (nn),dd</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>DD/FD プレフィックス命令例</h2>
+        <ul>
+            <li>IX / IY 関連命令</li>
+            <li>LD IX/IY,nn / INC IX / DEC IX など</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 紅音 雪乃</p>
+</footer>
+</body>
+</html>

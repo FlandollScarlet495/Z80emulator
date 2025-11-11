@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アセンブラ文法 - Z80emulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>アセンブラ文法</h1>
+    <nav>
+        <a href="index.html">トップ</a> |
+        <a href="basic.html">BASIC 文法</a> |
+        <a href="z80.html">Z80 命令セット</a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>サポート命令例</h2>
+        <ul>
+            <li>LD A,10</li>
+            <li>LD B,20</li>
+            <li>ADD A,B</li>
+            <li>JP label</li>
+            <li>CALL sub</li>
+            <li>RET</li>
+            <li>HALT</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>ラベルの使用例</h2>
+        <pre><code>
+start:
+    LD A,5
+    JP end
+    LD A,10
+end: HALT
+        </code></pre>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 紅音 雪乃</p>
+</footer>
+</body>
+</html>

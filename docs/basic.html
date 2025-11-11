@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC 文法 - Z80emulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>BASIC 文法</h1>
+    <nav>
+        <a href="index.html">トップ</a> |
+        <a href="asm.html">アセンブラ文法</a> |
+        <a href="z80.html">Z80 命令セット</a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>対応コマンド</h2>
+        <ul>
+            <li><b>LET A = 10</b> : Aレジスタに値を代入</li>
+            <li><b>PRINT A</b> : Aレジスタの値を出力（仮想）</li>
+            <li><b>GOTO label</b> : ラベルへのジャンプ</li>
+            <li><b>IF A = 0 THEN GOTO label</b> : 条件ジャンプ</li>
+            <li><b>END</b> : プログラム終了（HALT）</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>サンプルコード</h2>
+        <pre><code>
+LET A = 10
+LET B = 20
+IF A = 0 THEN GOTO skip
+PRINT A
+skip: END
+        </code></pre>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 紅音 雪乃</p>
+</footer>
+</body>
+</html>
